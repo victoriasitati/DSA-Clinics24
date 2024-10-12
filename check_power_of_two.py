@@ -28,7 +28,7 @@ while True:
 
 # Check if the input is a power of two and give user feedback!
 if is_power_of_two(user_input):
-    print(f"Spot on! {user_input} is a power of two!")
+    print(f"True,  {user_input} is a power of two!")
 else:
-    print(f":(Unfortunately {user_input} is not a power of two. Another try?")
+    print(f"False, {user_input} is not a power of two. Another try?")
 
